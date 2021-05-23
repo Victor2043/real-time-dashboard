@@ -1,0 +1,34 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+    height: auto;
+}
+
+.coinsInfoContainer{
+    margin: 0 auto;
+    width: 90%;
+    color: black;
+    background-color: #ffffff;
+}
+
+.coinsInfoWrapper{
+    width: 60%;
+    display: inline-flex;
+}
+
+.coinDiv{
+    width: 250px;  
+    margin-left: 20px; 
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .coinsInfoWrapper{
+        width: 100%; 
+        display: inline-flex;
+    }
+}
