@@ -13,3 +13,5 @@ FROM nginx:latest
 COPY --from=build /usr/local/app/dist/real-time-dashboard /usr/share/nginx/html
 
 EXPOSE 80
+
+RUN chmod 777 /etc/nginx/nginx.conf
