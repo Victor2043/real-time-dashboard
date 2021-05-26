@@ -2,7 +2,7 @@
   "name": "real-time-dashboard",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild":"ng build --prod",
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
@@ -10,9 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "engines":{
+  "engines": {
     "node": "12.4.0",
-    "npm":"6.9.0"
+    "npm": "6.9.0"
   },
   "private": true,
   "dependencies": {
@@ -31,15 +31,16 @@
     "@angular/router": "~9.1.0",
     "angular2-chartjs": "^0.5.1",
     "chart.js": "^2.9.3",
+    "express": "^4.17.1",
     "highcharts": "^9.1.0",
     "highcharts-angular": "^2.10.0",
     "ng2-charts": "^2.3.0",
+    "path": "^0.12.7",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "typescript": "^3.8.3",
     "websocket": "^1.0.34",
     "zone.js": "~0.10.2"
-
   },
   "devDependencies": {
     "@angular/cli": "^9.1.0",

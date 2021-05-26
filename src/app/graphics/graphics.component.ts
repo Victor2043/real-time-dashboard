@@ -39,6 +39,16 @@ export class GraphicsComponent implements OnInit {
       concatMap(item => of (item).pipe(delay(3000)))
       ).subscribe(data => {
         this.rate = data;
+
+          if(this.charDataBitcoin.length   > 500){
+             this.charDataBitcoin = [0];
+            this.charDataEthereum = [0];
+            this.charDataDogecoin = [0];
+            this.charDataLitecoin = [0];
+
+        }
+
+
         if (!isNaN(this.rate.bitcoin))
           this.charDataBitcoin.push(Number(this.rate.bitcoin))
 
